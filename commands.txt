@@ -1,0 +1,26 @@
+# indicates the start of a new comment
+
+node.js commands without description
+npm root
+npm root -g
+npm list
+npm list -g
+npm install <module-name>
+npm install -g <module-name>
+npm uninstall <module-name>
+npm uninstall -g <module-name
+
+# node.js commands with description
+
+npm root # displays the path to the directory in which npm modules are installed locally
+npm root -g # displays the path to the directory in which npm modules are installed globally
+npm list # prints all the npm modules installed locally
+npm list -g # prints all the npm module installed globally
+npm install <module-name> # installs the specified module locally
+npm install -g <module-name> # installs the specified module globally
+npm uninstall <module-name> --save # uninstalls the specified module locally and modifies the package.json file
+npm uninstall -g <module-name> --save # uninstalls the specified module globally and modifies the package.json file
+
+# FOR WINDOWS
+# note: local modules are installed on C:\Users\<user-name>\node-modules
+# note: global modules are installed on C:\Users<user-name>\AppData\Roaming\npm\node_modules
